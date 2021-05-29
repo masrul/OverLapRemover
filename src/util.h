@@ -6,8 +6,8 @@
 
 struct singleAtom{
     int atomid;  
-    std::string resname; 
-    std::string symbol; 
+    string resname; 
+    string symbol; 
     int resid; 
     float x; 
     float y; 
