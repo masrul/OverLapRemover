@@ -9,7 +9,7 @@ int main(int argc, char* argv[])
     float rcut=-1.0;
     int target; 
     
-    // Parese Command Line Argument 
+    // Parse Command Line Argument 
     int i=1;
     while(i<argc && argv[i][0] == '-') {
         string opt = string(argv[i]) ;
